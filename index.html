@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت من</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f2f2f2;
+            color: #222;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 35px;
+        }
+
+        nav {
+            background: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .button {
+            display: inline-block;
+            background: #00a8cc;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #0086a3;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>به سایت من خوش آمدید</h1>
+        <p>این اولین سایت من با Notepad است!</p>
+    </header>
+
+    <nav>
+        <a href="#home">خانه</a>
+        <a href="#about">درباره من</a>
+        <a href="#contact">تماس با من</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="box" id="home">
+            <h2>🏠 خانه</h2>
+            <p>
+                سلام! به سایت من خوش آمدید.
+                این یک سایت ساده است که فقط با HTML و CSS ساخته شده.
+            </p>
+
+            <a class="button" href="#about">بیشتر بدانید</a>
+        </div>
+
+        <div class="box" id="about">
+            <h2>👤 درباره من</h2>
+            <p>
+                این قسمت را می‌توانید با اطلاعات خودتان پر کنید.
+                مثلاً درباره خودتان، کارتان، مهارت‌ها یا علاقه‌مندی‌ها بنویسید.
+            </p>
+        </div>
+
+        <div class="box" id="contact">
+            <h2>📞 تماس با من</h2>
+            <p>ایمیل: example@gmail.com</p>
+            <p>تلفن: 09123456789</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 تمامی حقوق محفوظ است.</p>
+    </footer>
+
+</body>
+</html>
